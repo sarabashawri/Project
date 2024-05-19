@@ -1,0 +1,63 @@
+# Car Category | Car Type | Car Model | Plate Number | Color | Price
+Family | Toyota | Camry 2020 | ABC1234 | White | 100
+Family | Honda | Accord 2021 | DEF5678 | Black | 120
+Family | Nissan | Altima 2020 | GHI9012 | Blue | 110
+Family | Ford | Fusion 2021 | JKL3456 | Red | 130
+Family | Chevrolet | Malibu 2020 | MNO7890 | Silver | 90
+Family | Kia | Optima 2021 | PQR1234 | Green | 140
+Sport | Ferrari | F8 2020 | STU5678 | Red | 600
+Sport | Lamborghini | Aventador 2021 | VWX9012 | Yellow | 900
+Sport | Porsche | 911 2020 | YZA3456 | Black | 750
+Sport | McLaren | 720S 2021 | BCD7890 | White | 850
+Sport | Audi | R8 2020 | EFG1234 | Blue | 650
+Sport | BMW | M4 2021 | HIJ5678 | Silver | 700
+Motorcycle | Yamaha | MT-07 2020 | KLM9012 | Blue | 150
+Motorcycle | Kawasaki | Ninja 2021 | NOP3456 | Green | 200
+Motorcycle | Ducati | Monster 2020 | QRS7890 | Red | 180
+Motorcycle | Harley-Davidson | Street 750 2021 | TUV1234 | Black | 220
+Motorcycle | Suzuki | GSX-R750 2020 | WXY5678 | White | 170
+Motorcycle | BMW | S1000RR 2021 | ZAB9012 | Silver | 210
+Truck | Ford | F-150 2020 | CDE3456 | Black | 250
+Truck | Chevrolet | Silverado 2021 | FGH7890 | Silver | 300
+Truck | Ram | 1500 2020 | IJK1234 | White | 270
+Truck | Toyota | Tundra 2021 | LMN5678 | Red | 280
+Truck | GMC | Sierra 2020 | OPQ9012 | Blue | 260
+Truck | Nissan | Titan 2021 | RST3456 | Green | 290
+Luxury | Mercedes | S-Class 2020 | UVW7890 | White | 1000
+Luxury | BMW | 7 Series 2021 | XYZ1234 | Black | 1200
+Luxury | Audi | A8 2020 | ABD5678 | Silver | 1100
+Luxury | Lexus | LS 2021 | DEF9012 | Blue | 1050
+Luxury | Cadillac | CT6 2020 | GHI3456 | Red | 1150
+Luxury | Jaguar | XJ 2021 | JKL7890 | Green | 1300
+Family | Hyundai | Sonata 2021 | MNO1234 | Blue | 125
+Family | Subaru | Legacy 2020 | PQR5678 | White | 95
+Family | Mazda | 6 2021 | STU9012 | Red | 135
+Family | Volkswagen | Passat 2020 | VWX3456 | Silver | 105
+Family | Chrysler | 300 2021 | YZA7890 | Black | 115
+Family | Peugeot | 508 2020 | BCD1234 | Green | 145
+Sport | Ford | Mustang 2021 | EFG5678 | Blue | 720
+Sport | Chevrolet | Corvette 2020 | HIJ9012 | Red | 760
+Sport | Nissan | GT-R 2021 | KLM3456 | Silver | 800
+Sport | Jaguar | F-Type 2020 | NOP7890 | Black | 780
+Sport | Subaru | WRX STI 2020 | ABC1234 | Blue | 400
+Sport | Aston Martin | Vantage 2021 | QRS1234 | White | 820
+Motorcycle | Honda | CBR600RR 2020 | TUV5678 | Red | 160
+Motorcycle | Triumph | Street Triple 2021 | WXY9012 | Black | 230
+Motorcycle | KTM | Duke 790 2020 | ZAB3456 | Orange | 175
+Motorcycle | Aprilia | RSV4 2021 | CDE7890 | Green | 240
+Motorcycle | MV Agusta | F3 2020 | FGH1234 | Blue | 190
+Truck | Honda | Ridgeline 2021 | IJK5678 | White | 310
+Truck | Jeep | Gladiator 2020 | LMN9012 | Black | 330
+Truck | Mitsubishi | L200 2021 | OPQ3456 | Red | 320
+Truck | Hyundai | Santa Cruz 2020 | RST7890 | Blue | 300
+Truck | Isuzu | D-Max 2021 | UVW1234 | Silver | 280
+Truck | Mitsubishi | Triton 2021 | OPQ3456 | Gray | 200
+Luxury | Maserati | Quattroporte 2020 | XYZ5678 | Blue | 1250
+Luxury | Rolls-Royce | Phantom 2021 | ABD9012 | White | 1500
+Luxury | Bentley | Continental GT 2020 | DEF3456 | Black | 1400
+Luxury | Genesis | G90 2021 | GHI7890 | Silver | 1100
+Luxury | Infiniti | Q70 2020 | JKL1234 | Red | 1150
+Luxury | Lincoln | Continental 2021 | MNO5678 | Green | 1050
+Luxury | BMW | X5 2021 | DEF5678 | Black | 1100
+Family | Hyundai | Elantra 2021 | UVW1234 | Gray | 110
+Family | Volkswagen | Jetta 2020 | XYZ5678 | White | 130
