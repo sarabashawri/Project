@@ -98,6 +98,7 @@ register_new_customer() {
     done
 }
 
+
 # Function to handle returning customer login
 returning_customer_login() {
     while true; do
@@ -229,4 +230,50 @@ rent_car() {
     echo "Total rental price: $rental_price"
     echo "Please return the car by $end_date."
 }
+
+# Function to return a car
+return_car() {
+    while true; do
+        read -p "Enter the plate number of the car you are returning: " plate_number
+        if grep -q "$plate_number" bookings.txt; then
+            sed -i "/$plate_number/d" bookings.txt
+            echo "Thank you for returning the car."
+            break
+        else
+            echo "This car is not rented by you."
+        fi
+    done
+}
+
+# Main program
+clear
+echo "Welcome to our car rental service!"
+
+while true; do
+    read -p "Are you a returning customer? (yes/no): " returning
+    if [[ "$returning" == "yes" || "$returning" == "no" ]]; then
+        break
+    else
+        echo "Invalid input. Please enter either 'yes' or 'no'."
+    fi
+done
+
+if [ "$returning" = "no" ]; then
+    register_new_customer
+else
+    returning_customer_login
+fi
+
+while true; do
+    display_menu
+    read -p "Enter your choice: " choice
+
+    case $choice in
+        1) rent_car ;;
+        2) return_car ;;
+        3) display_bookings ;;
+        4) echo "Thank you, see you soon!"; exit ;;
+        *) echo "Invalid choice. Please try again." ;;
+    esac
+done
 
