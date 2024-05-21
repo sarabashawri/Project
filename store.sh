@@ -98,7 +98,6 @@ register_new_customer() {
     done
 }
 
-
 # Function to handle returning customer login
 returning_customer_login() {
     while true; do
@@ -114,7 +113,6 @@ returning_customer_login() {
         fi
     done
 }
-
 
 # Function to display previous bookings
 display_bookings() {
@@ -234,16 +232,21 @@ rent_car() {
 # Function to return a car
 return_car() {
     while true; do
-        read -p "Enter the plate number of the car you are returning: " plate_number
-        if grep -q "$plate_number" bookings.txt; then
-            sed -i "/$plate_number/d" bookings.txt
-            echo "Thank you for returning the car."
-            break
+        read -p "Enter the plate number of the car you are returning (ABC1234 format): " plate_number
+        if [[ "$plate_number" =~ ^[A-Z]{3}[0-9]{4}$ ]]; then
+            if grep -q "$plate_number" bookings.txt; then
+                sed -i "/$plate_number/d" bookings.txt
+                echo "Thank you for returning the car."
+                break
+            else
+                echo "This car is either not rented or not found in the bookings."
+            fi
         else
-            echo "This car is not rented by you."
+            echo "Invalid plate number format. Please enter in ABC1234 format."
         fi
     done
 }
+
 
 # Main program
 clear
@@ -276,4 +279,3 @@ while true; do
         *) echo "Invalid choice. Please try again." ;;
     esac
 done
-
